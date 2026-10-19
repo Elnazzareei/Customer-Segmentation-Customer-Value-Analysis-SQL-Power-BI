@@ -10,8 +10,7 @@ The analysis focuses on three key questions:
 # Business Problem
 E-commerce businesses need to understand differences in customer behavior to allocate marketing and retention resources effectively. However, transaction-level data alone does not clearly reveal which customers are valuable, which have not purchased recently, or which may have potential for repeat purchases.
 The objective of this project was to transform raw e-commerce data into a customer-level analytical dataset, segment customers using RFM-based rules, and develop dashboards that support data-informed business decisions.
-Dataset
-
+Dataset.
 # Source: Olist Brazilian E-Commerce Public Dataset, available on Kaggle.
 The dataset contains historical e-commerce transactions and related customer, order, product, payment, and review information from 2016–2018.
 The project used the following datasets:
@@ -99,8 +98,13 @@ The two-page structure separates executive-level customer value analysis from th
 # Key Findings
 The final analytical dataset contains 93,358 unique customers and approximately 15.42 million in cumulative customer payment value.
 The principal findings are summarized below.
-
-
+Needs Attention: 21,895 customers (23.45%). Average recency: 394.1 days. Average orders per customer: 1.05. Average customer value: 242.15. Total customer value: 5,301,788.32.
+-High-Value Recent Customers: 15,401 customers (16.50%). Average recency: 91.8 days. Average orders per customer: 1.08. Average customer value: 306.57. Total customer value: 4,721,504.77.
+-Developing Customers: 18,167 customers (19.46%). Average recency: 219.9 days. Average orders per customer: 1.01. Average customer value: 151.49. Total customer value: 2,752,133.45.
+-Recent One-Time Customers: 21,725 customers (23.27%). Average recency: 90.3 days. Average orders per customer: 1.00. Average customer value: 72.93. Total customer value: 1,584,395.74.
+-Low-Value Inactive: 15,447 customers (16.55%). Average recency: 396.5 days. Average orders per customer: 1.01. Average customer value: 55.81. Total customer value: 862,039.28.
+-Loyal Customers: 723 customers (0.77%). Average recency: 193.1 days. Average orders per customer: 2.08. Average customer value: 277.46. Total customer value: 200,600.23.
+-Overall: The dataset contains 93,358 unique customers with a total customer value of approximately 15,422,461.79.
 Values are rounded. Customer share may differ slightly from 100% due to rounding.
 1. Needs Attention Represents a Significant Customer Group
 This segment contains 21,895 customers, representing approximately 23.45% of the customer base. Its cumulative customer value is approximately 5.30 million, while average recency is about 394 days.
@@ -120,8 +124,16 @@ High-Value Recent Customers have the highest average customer value, whereas Loy
 Business implication: Customer value and purchase frequency should be analyzed separately when designing customer retention and engagement strategies.
 # Business Recommendations
 Based on the findings, the following actions could be tested:
-
-
+1. Encourage Repeat Purchases
+Test follow-up messages and second-order incentives for recent one-time buyers. Measure success using the second-purchase rate.
+2. Reactivate Customers
+Test targeted win-back campaigns for the Needs Attention segment. Measure success using the reactivation rate.
+3. Retain High-Value Customers
+Test personalized offers and relevant cross-selling opportunities for high-value customers. Measure success using the repeat-purchase rate and customer value.
+4. Strengthen Loyalty
+Analyze Loyal Customers’ purchasing patterns and test loyalty or referral initiatives. Measure success using repeat-purchase frequency and referral conversion.
+5. Improve Segmentation
+Monitor customer behavior across segments and compare campaign results between customer groups. Measure success using segment migration and campaign conversion rate.
 These recommendations are hypotheses for business testing rather than proven causal effects. Campaign performance should be measured before deciding whether to expand an intervention.
 # Limitations and Considerations
 Historical data: The dataset covers 2016–2018 and does not describe the current customer base.
