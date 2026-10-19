@@ -100,10 +100,10 @@ The final analytical dataset contains 93,358 unique customers and approximately 
 The principal findings are summarized below.
 Needs Attention: 21,895 customers (23.45%). Average recency: 394.1 days. Average orders per customer: 1.05. Average customer value: 242.15. Total customer value: 5,301,788.32.
 -High-Value Recent Customers: 15,401 customers (16.50%). Average recency: 91.8 days. Average orders per customer: 1.08. Average customer value: 306.57. Total customer value: 4,721,504.77.
--Developing Customers: 18,167 customers (19.46%). Average recency: 219.9 days. Average orders per customer: 1.01. Average customer value: 151.49. Total customer value: 2,752,133.45.
+-Developing Customers: 18,168 customers (19.46%). Average recency: 219.9 days. Average orders per customer: 1.01. Average customer value: 151.49. Total customer value: 2,752,133.45.
 -Recent One-Time Customers: 21,725 customers (23.27%). Average recency: 90.3 days. Average orders per customer: 1.00. Average customer value: 72.93. Total customer value: 1,584,395.74.
 -Low-Value Inactive: 15,447 customers (16.55%). Average recency: 396.5 days. Average orders per customer: 1.01. Average customer value: 55.81. Total customer value: 862,039.28.
--Loyal Customers: 723 customers (0.77%). Average recency: 193.1 days. Average orders per customer: 2.08. Average customer value: 277.46. Total customer value: 200,600.23.
+-Loyal Customers: 722 customers (0.77%). Average recency: 193.1 days. Average orders per customer: 2.08. Average customer value: 277.46. Total customer value: 200,600.23.
 -Overall: The dataset contains 93,358 unique customers with a total customer value of approximately 15,422,461.79.
 Values are rounded. Customer share may differ slightly from 100% due to rounding.
 1. Needs Attention Represents a Significant Customer Group
@@ -117,7 +117,7 @@ Business implication: Personalized retention, cross-selling, and relevant follow
 This segment contains 21,725 customers, or approximately 23.27% of the customer base. Its average order frequency is 1.00, and average recency is approximately 90 days.
 Business implication: Post-purchase follow-ups and second-order incentives could be tested to determine whether recent one-time buyers can be encouraged to purchase again.
 4. Loyal Customers Form a Small but Distinct Segment
-Only 723 customers, or approximately 0.77% of the customer base, are classified as Loyal Customers. Their average order frequency is 2.08, the highest among the six segments.
+Only 722 customers, or approximately 0.77% of the customer base, are classified as Loyal Customers. Their average order frequency is 2.08, the highest among the six segments.
 Business implication: Examining their purchasing patterns may help identify behaviors associated with repeat purchases and inform customer loyalty initiatives.
 5. Customer Value and Purchase Frequency Are Not the Same
 High-Value Recent Customers have the highest average customer value, whereas Loyal Customers have the highest average order frequency.
